@@ -5,7 +5,7 @@ import java.io.File;
 public class IOM {
 
 	public static void main(String[] args) {
-		File file=new File("C:/Windows/System32/");
+		File file=new File("C:/Windows/");
 		System.out.println(file.isDirectory());
 		System.out.println(file.isFile());
 		System.out.println(file.getAbsolutePath());
